@@ -28,7 +28,7 @@
 }
 .category-container .category-movies .movie-col{
     flex: none;
-    width: 210px;
+    width: 200px;
     height: 280px;
     background-position: center;
     background-repeat: no-repeat;

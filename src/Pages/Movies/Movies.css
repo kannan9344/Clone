@@ -97,13 +97,17 @@
   
   
   @media all and (max-width:600px) {
+    .movie-container .movie-row {
+        background-position: center;
+    }
       .movie-container .movie-columns .movie-col:nth-child(1){
-          top: 350px;
+          top: 400px;
       }
       .movie-container .movie-columns .movie-col:nth-child(1) p{
           width: 400px;
           font-size: 14px;
       }
+
   }
   
   

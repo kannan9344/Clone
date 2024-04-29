@@ -1,0 +1,38 @@
+.category-container{
+    width: 96vw;
+    margin: 0px auto;
+    position: relative;
+}
+.category-container .categories{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #fff;
+    padding-top:100px ;
+}
+.category-container .categories div{
+    padding: 5px 15px;
+    border: 1px solid #E50914;
+    font-size: 15px;
+    cursor: pointer;
+}
+.category-container .category-movies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 10px;
+}
+.category-container .category-movies .movie-col{
+    flex: none;
+    width: 210px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+}

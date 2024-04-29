@@ -1,0 +1,61 @@
+.search-container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.search-container .search-box{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+.search-container .search-box input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0px 15px;
+    border-radius: 20px 0px 0px 20px;
+}
+.search-container .search-box .search-btn{
+    width: 180px;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    background-color:#E50914;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+}
+.search-container .search-movies{
+    width: 96vw;
+    margin: 0px auto;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.search-container .search-movies::-webkit-scrollbar{
+    display: none;
+}
+.search-container .search-movies .movie{
+    width: 200px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:600px) {
+    .search-container .search-box{
+        width: 400px;
+    }
+    .search-container .search-box .search-btn{
+        width: 180px;
+        line-height: 40px;
+    }
+}
